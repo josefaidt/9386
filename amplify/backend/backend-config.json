@@ -1,1 +1,23 @@
-{}
+{
+  "function": {
+    "93869f04a51a": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "9386layera1fe368f",
+          "attributes": [
+            "Arn"
+          ]
+        }
+      ]
+    },
+    "9386layera1fe368f": {
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer",
+      "build": true
+    }
+  }
+}
