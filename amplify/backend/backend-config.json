@@ -19,5 +19,12 @@
       "service": "LambdaLayer",
       "build": true
     }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd",
+      "lastPushTimeStamp": "2022-01-03T20:16:55.738Z"
+    }
   }
 }
