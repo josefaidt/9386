@@ -38,7 +38,14 @@
     },
     "categories": {
       "function": {
-        "93869f04a51a": {}
+        "93869f04a51a": {
+          "deploymentBucketName": "amplify-9386-next-140255-deployment",
+          "s3Key": "amplify-builds/93869f04a51a-74485655523474705a64-build.zip"
+        },
+        "9386layera1fe368f": {
+          "deploymentBucketName": "amplify-9386-next-140255-deployment",
+          "s3Key": "amplify-builds/9386layera1fe368f-LambdaLayerVersione29a2971-build.zip"
+        }
       }
     }
   }
